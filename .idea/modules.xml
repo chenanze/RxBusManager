@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxBusManager.iml" filepath="$PROJECT_DIR$/RxBusManager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxbusmanager/rxbusmanager2.iml" filepath="$PROJECT_DIR$/rxbusmanager/rxbusmanager2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxbusmanager/rxbusmanager.iml" filepath="$PROJECT_DIR$/rxbusmanager/rxbusmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusmanager-sample/rxbusmanager-sample.iml" filepath="$PROJECT_DIR$/rxbusmanager-sample/rxbusmanager-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxbusmanager/rxbusmanager2.iml" filepath="$PROJECT_DIR$/rxbusmanager/rxbusmanager2.iml" />
     </modules>
   </component>
 </project>

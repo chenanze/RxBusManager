@@ -6,3 +6,7 @@
 .DS_Store
 /build
 /captures
+libs/
+src/androidTest/
+src/main/res/drawable/
+src/test/

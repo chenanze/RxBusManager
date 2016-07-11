@@ -1,3 +1,3 @@
-# RxBusManager
+# RxBusManager v1.0.0
 A simple RxBusManager base on RxJava and RxAndroid
 Then...

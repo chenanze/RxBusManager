@@ -121,6 +121,6 @@
 License
 -------
 
-    Copyright 2016 by Mr Funcking License
+    Copyright 2016 by Mr Fucking License
 
 

@@ -3,7 +3,6 @@
 buildscript {
     repositories {
         jcenter()
-//        mavenCentral()
 
     }
     dependencies {
@@ -22,9 +21,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven {
-            url  "http://dl.bintray.com/chenanze/maven"
-        }
     }
 }
 

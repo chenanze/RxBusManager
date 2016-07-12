@@ -13,6 +13,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import navgnss.com.rxbusmanager_sample.R;
+import rx.Observable;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, (String) o);
                 status1Tv.setText((String) o);
             });
+            RxBusManager.getInstance().t(TAG).on(C.EVENT_TEST, o -> Log.d(TAG, (String) o));
             test1Bt.setText("unregister");
         } else {
             RxBusManager.getInstance().unregister(C.EVENT_TEST, TAG);
@@ -75,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        RxBusManager.getInstance().add(Observable.just(" ")
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe());
     }
 
     public boolean reverse(Boolean status) {

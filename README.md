@@ -7,7 +7,7 @@
 - You can manager register and unregister of event handler with the tag which you have define. So you can unity of management for the unregister of event handler anywhere in your code.
 - Easy to manager the Observable object (*Developing*)
 - All  anonymous class are replace with `lambda` express. I used the library `me.tatarka.retrolambda`. So if you have used the `RxJava` in your work, you know how useful it is !
-- You can continuous post event content object of List item one by one with a assign interval time of 300ms, until all item of ArrayList object had been posted.
+- You can continuous post event content object of List item one by one with a assign interval time, until all item of List object had been posted.
 - Finally it's easy to use.
 
 ----

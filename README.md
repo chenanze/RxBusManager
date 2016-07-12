@@ -37,7 +37,10 @@
 
    compile 'com.chenanze:rxbusmanager:1.0.0'
    ```
-## Use 
+
+
+Use
+===
 ### RxBus
 
 - **Register event handler with define tag :**

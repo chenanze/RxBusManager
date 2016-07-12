@@ -12,7 +12,8 @@
 
 ----
 
-## Install
+##Install
+
 
 1. In your top `build.gradle` file add 
 
@@ -39,8 +40,7 @@
    ```
 
 
-Use
-===
+##Use
 ### RxBus
 
 - **Register event handler with define tag :**

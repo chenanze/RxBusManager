@@ -91,7 +91,7 @@
   ```
 
 
-- **Continuous post a List object one by one with assign interval time**
+- **Continuous post the List item object one by one with assign interval time**
 
   ```java
   RxBusManager.getInstance().postDatasWithInterval(C.EVENT_RECYCLER_VIEW_ITEM_ANIMATION, datas, 300);
